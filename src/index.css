@@ -13,8 +13,9 @@
 :root {
   --color-bg: #191c22;
   --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  /* --color-primary: #4db5ff; */
+  --color-primary: #32ff9f;
+  --color-primary-variant: #32ff9f70;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
   
@@ -22,7 +23,7 @@
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
 }
 
 html {
@@ -57,6 +58,7 @@ h1 {
 
 section{
   margin-top: 8rem;
+  height: 100v;
 }
 
 section > h2, section > h5 {
