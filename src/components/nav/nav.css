@@ -2,14 +2,17 @@ nav {
   background: rgba(0, 0, 0, 0.3);
   width: max-content;
   display: inline-block;
-  padding: 0.5rem 1.6rem;
+  padding: 0.5rem 0.5rem;
   z-index: 2;
-  position: fixed;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(1250%);
   bottom: 2rem;
+  top: 40%;
   display: flex;
-  gap: 0.8rem;
+  position: fixed;
+  flex-direction: column;
+  gap: 1.2rem;
+  bottom: auto;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
 }
@@ -30,4 +33,31 @@ nav a:hover {
 nav a.active {
   background: var(--color-primary);
   color: var(--color-bg);
+}
+
+/*  MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+  nav {
+    transform: translate(650%);
+  }
+
+  nav a {
+    background: transparent;
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+}
+
+/*  MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+  nav {
+    transform: translate(380%);
+    padding: 0.3rem 0.3rem;
+  }
+
+  nav a {
+    background: transparent;
+    padding: 0.7rem;
+    font-size: 1rem;
+  }
 }
