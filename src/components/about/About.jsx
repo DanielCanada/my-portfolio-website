@@ -29,7 +29,7 @@ const About = () => {
         <div className="about__content">
         <h2>About Me</h2>
           <p>
-            {'\t'}I am Daniel from Bacolod City. A Computer Engineering fresh graduate at the University of St. La Salle - Bacolod. I became External Vice President of ICpEP.se USLS from mid 2019 to May 2021 and made Dean's List in the AY 2020 - 2021. Interested in Software and Application Development, UI/UX Design, and Networking. A solution-oriented and adaptive individual committed to service and team coordination to achieve deliverables.
+            {'\t'}I am Daniel from Bacolod City. A Computer Engineering fresh graduate at the University of St. La Salle - Bacolod. I became External Vice President of ICpEP.se USLS from mid 2019 to May 2021 and made Dean's List in the AY 2020 - 2021 and AY 2021 - 2022. Interested in Software and Application Development, UI/UX Design, and Networking. A solution-oriented and adaptive individual committed to service and team coordination to achieve deliverables.
           </p>
 
           <div className="about__cards">
