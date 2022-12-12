@@ -52,7 +52,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about_icon'/>
               <h5>Academic Achievements</h5>
-              <small>Dean's List (3rd Year College)</small>
+              <small>Dean's List (3rd Year and 4th Year College)</small>
               <br></br>
               <small>With Honors (Senior High School - Liceo De La Salle)</small>
             </article>
